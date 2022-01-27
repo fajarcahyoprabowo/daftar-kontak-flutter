@@ -138,7 +138,6 @@ class _FormContactScreenState extends State<FormContactScreen> {
               const SizedBox(height: 16),
               FormBuilderTextField(
                 name: 'notes',
-                keyboardType: TextInputType.number,
                 maxLines: 5,
                 minLines: 1,
                 decoration: InputDecoration(
